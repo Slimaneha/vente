@@ -1,36 +1,52 @@
-body {
-	background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+html,body {
+	background-color: #2E2E2E;
 
+}
+
+#numéro{
+	background-color: #DF3A01;
+	height: 30px;
+	width: 300px;
 }
 
 h1,h5 { /* Non du site = Titre H1 */
 
 		text-align: center;
-		background-color: #2E2E2E;
+		background-color: #DF3A01;
 		margin: 0;
 		padding-bottom: 10px;
-		padding-top:20px;
-		color: #00FF00;
+		padding-top:30px;
+		color: #000000;
+	}
+	
 	}
 
 #menu-deroulant, #menu-deroulant ul {
+	height: 100px;
+	width: 10px;
     padding: 0;
     margin: 0;
     list-style: none;
     border: solid 3px black;
+    background-color: #DF3A01;
 }
 #menu-deroulant {
 /* on centre le menu dans la page */
-    text-align: center;
+    text-align: right;
+    height: 100%;
+	width: 700px;
+
 }
 #menu-deroulant li {
 /* on place les liens du menu horizontalement */
     display: inline-block;
+    border: solid 1px blue ;
 }
 #menu-deroulant ul li {
 /* on enlève ce comportement pour les liens du sous menu */
     display: inherit;
     background-color: #F2F2F2;
+    border: solid 1px black;
 }
 #menu-deroulant a {
     text-decoration: none;
@@ -49,7 +65,72 @@ h1,h5 { /* Non du site = Titre H1 */
     left: auto;
 }
 
+#coeur,#sa{
+	margin: 0;
+height: 200px;
+width: 500px;
 
-#menu2 {
+	}
+
+
+footer,#foot,#service {
+	margin-top:10%;
+    position: absolute;
+    bottom: 0;
+    height: XX;
+	
 	text-align: right;
+	color: #FFFFFF;
+	height:20px; width:100%; position:absolute; margin:0; 
+		}
+		
+    
+		
+
+
+/********************** CSS TYPE PRODUIT *************************/
+/* Debut images type produit */
+#produit {
+	height:500px; 
+	width:500px;
+	float: left;
+}
+/*Fin css images type produit */
+
+/* Titre produit */
+#titre {
+	text-align: center;
+
+}
+/* Fin titre produit */
+/*Debut Promo produit */
+
+#promo {
+	text-align: center;
+	color: red;
+	font-size:40px;
+}
+
+#prix {
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	text-decoration: line-through;
+}
+#produit1{
+	background-color: #FAFAFA;
+	margin:0;
+}
+#cat{
+	text-align: center;
+}
+
+/***************************************PAGE CONTACT ********************************************************************************
+
+/* h1 de la pages contact */ 
+
+#titrec {
+	text-align: center;
+	font-size: 30px;
+	margin: 
 }
