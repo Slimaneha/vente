@@ -74,12 +74,12 @@ width: 500px;
 
 
 footer,#foot,#service {
-	margin-top:10%;
+	background-color: #DF3A01;
     position: absolute;
     bottom: 0;
     height: XX;
 	
-	text-align: right;
+	text-align: center;
 	color: #FFFFFF;
 	height:20px; width:100%; position:absolute; margin:0; 
 		}
