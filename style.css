@@ -1,13 +1,16 @@
 body {
 	background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+
 }
 
 h1,h5 { /* Non du site = Titre H1 */
+
 		text-align: center;
-		
+		background-color: #2E2E2E;
+		margin: 0;
 		padding-bottom: 10px;
 		padding-top:20px;
-	
+		color: #00FF00;
 	}
 
 #menu-deroulant, #menu-deroulant ul {
