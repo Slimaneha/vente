@@ -73,7 +73,7 @@ width: 500px;
 	}
 
 
-footer,#foot,#service {
+footer,#foot, {
 	background-color: #DF3A01;
     position: absolute;
     bottom: 0;
@@ -83,8 +83,10 @@ footer,#foot,#service {
 	color: #FFFFFF;
 	height:20px; width:100%; position:absolute; margin:0; 
 		}
-		
-    
+		#service{
+			background-color:#DF3A01;
+		}
+
 		
 
 
@@ -94,6 +96,8 @@ footer,#foot,#service {
 	height:500px; 
 	width:500px;
 	float: left;
+	margin-left: 0:
+	margin-top:0;
 }
 /*Fin css images type produit */
 
@@ -118,7 +122,7 @@ footer,#foot,#service {
 	text-decoration: line-through;
 }
 #produit1{
-	background-color: #FAFAFA;
+	/*background-color: #FAFAFA;*/
 	margin:0;
 }
 #cat{
@@ -133,4 +137,19 @@ footer,#foot,#service {
 	text-align: center;
 	font-size: 30px;
 	margin: 
+}
+
+
+
+/******************************************* Ordinateur Portable **********************************************************************/
+#type {
+	height: 300px;
+	width: 300px;
+}
+
+h6{
+	font-size: 30px;
+	color:red;
+	margin-top:0;
+
 }
