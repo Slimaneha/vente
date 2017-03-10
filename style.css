@@ -1,3 +1,4 @@
+/************************************** DÉBUT REGLAGES CSS PAGES PRINCI *********************************************/
 html,body {
 	background-color: #2E2E2E;
 
@@ -87,7 +88,7 @@ footer,#foot, {
 			background-color:#DF3A01;
 		}
 
-		
+	/******************************************FIN CSS PRINCIPAL ******************************/	
 
 
 /********************** CSS TYPE PRODUIT *************************/
@@ -95,9 +96,7 @@ footer,#foot, {
 #produit {
 	height:500px; 
 	width:500px;
-	float: left;
-	margin-left: 0:
-	margin-top:0;
+	margin-left: 966px:
 }
 /*Fin css images type produit */
 
@@ -127,6 +126,11 @@ footer,#foot, {
 }
 #cat{
 	text-align: center;
+}
+
+#Descriptif{
+
+
 }
 
 /***************************************PAGE CONTACT ********************************************************************************
