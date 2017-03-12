@@ -1,4 +1,4 @@
-/************************************** DÉBUT REGLAGES CSS PAGES PRINCI *********************************************/
+/************************************** DÉBUT REGLAGES CSS PAGES PRINCIPAL *********************************************/
 html,body {
 	background-color: #2E2E2E;
 
@@ -124,6 +124,7 @@ footer,#foot, {
 /* Titre produit */
 #titre {
 	text-align: center;
+	background-color: #FAFAFA;
 
 }
 /* Fin titre produit */
@@ -133,6 +134,7 @@ footer,#foot, {
 	text-align: center;
 	color: red;
 	font-size:40px;
+	border: solid 5px #64FE2E;
 }
 
 #prix {
@@ -140,13 +142,21 @@ footer,#foot, {
 	color: red;
 	font-size: 30px;
 	text-decoration: line-through;
+	background-color: #FAFAFA;
+	border: solid 5px red;
+
 }
 #produit1{
 	/*background-color: #FAFAFA;*/
 	margin:0;
+	background-color: #FAFAFA;
+	border: solid 5px black;
+	
+
 }
 #cat{
 	text-align: center;
+	border: solid 5px black;
 }
 
 #Descriptif{
