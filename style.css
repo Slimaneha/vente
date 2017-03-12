@@ -2,6 +2,15 @@
 html,body {
 	background-color: #2E2E2E;
 
+
+}
+
+#logo {
+	background-color: #DF3A01;
+	height:200px;
+	width:500px;
+	margin-left: 500px;
+	border: solid 4px #DF3A01;
 }
 #age {
 	margin-left: 300px;
@@ -38,10 +47,10 @@ h1,h5 { /* Non du site = Titre H1 */
 }
 #menu-deroulant {
 /* on centre le menu dans la page */
-margin-left: 450px;
+margin-left: 500px;
     text-align: center;
     height: 100%;
-	width: 600px;
+	width: 500px;
 
 }
 #menu-deroulant li {
@@ -103,7 +112,7 @@ footer,#foot, {
 	/******************************************FIN CSS PRINCIPAL ******************************/	
 
 
-/********************** CSS TYPE PRODUIT *************************/
+/********************** CSS  PRODUIT *************************/
 /* Debut images type produit */
 #produit {
 	height:500px; 
@@ -161,6 +170,7 @@ footer,#foot, {
 #type {
 	height: 300px;
 	width: 300px;
+	border: solid 4px black ;
 }
 
 h6{
@@ -172,4 +182,5 @@ h6{
 #asus {
 	height: 300px;
 	width: 300px;
+	border:solid 4px black ;
 }
